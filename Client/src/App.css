@@ -1,0 +1,67 @@
+html{
+  background-color: rgba(204, 101, 183, 0.175);
+}
+
+.App {
+  text-align: center;
+  font-family:'Trebuchet MS';
+  color:  rgba(210, 145, 223, 0.781);
+}  
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input{
+  width: 300px;
+  height: 60px;
+  margin: 10px;
+  font-size:25px;
+}
+
+.card {
+  width:500px;
+  height:170px;
+  border: 2px solid black;
+  margin: 10px;
+  border-color:  rgba(139, 53, 133, 0.884);
+  background-color:  rgba(5, 62, 47, 0.132);
+}
+
+button{
+  color:  rgba(62, 5, 56, 0.938);
+  background-color: rgba(126, 35, 115, 0.132);
+  border-style: none;
+}
+
+#updateInput{
+  width:100px;
+  height:20px;
+  margin-bottom:10px;
+}
+
+input{
+  border-color: rgba(139, 53, 133, 0.884);
+  border-radius: 0.1cm;
+}
+
+.search {
+  color: rgba(62, 5, 56, 0.938);
+  background-color: rgba(126, 35, 115, 0.132);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.add {
+  color: rgba(62, 5, 56, 0.938);
+  background-color: rgba(126, 35, 115, 0.132);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 7%;
+}
+
